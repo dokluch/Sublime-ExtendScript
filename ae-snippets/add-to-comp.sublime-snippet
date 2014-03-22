@@ -1,14 +1,14 @@
 <snippet>
   <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
-  	var activeComp = app.project.activeItem;
-  	if(activeComp && activeComp instanceof CompItem){
-  		var sel = activeComp.selectedLayer();
-  		if(sel.length > 0){
+var activeComp = app.project.activeItem;
+if(activeComp && activeComp instanceof CompItem){
+	var sel = activeComp.selectedLayer();
+	if(sel.length > 0){
 
-  		
-  		}
-  	}
+
+	}
+}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ActiveComp + selectedLayers</tabTrigger>
