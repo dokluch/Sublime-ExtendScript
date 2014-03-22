@@ -1,18 +1,11 @@
 <snippet>
   <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
-var activeComp = app.project.activeItem;
-if(activeComp && activeComp instanceof CompItem){
-	var sel = activeComp.selectedLayer();
-	if(sel.length > 0){
-
-
-	}
-}
+add(${1:item}, ${2:duration})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>ActiveComp + selectedLayers</tabTrigger>
-  <description>Creates activeComp structure + selectedLayers</description>
+  <tabTrigger>add</tabTrigger>
+  <description>ae add item from project to comp</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.jsx</scope>
 </snippet>
