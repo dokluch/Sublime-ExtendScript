@@ -3,7 +3,7 @@
   <content><![CDATA[
 var activeComp = app.project.activeItem;
 if(activeComp && activeComp instanceof CompItem){
-	var sel = activeComp.selectedLayer();
+	var sel = activeComp.selectedLayers;
 	if(sel.length > 0){
 
 
@@ -11,7 +11,7 @@ if(activeComp && activeComp instanceof CompItem){
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>ActiveComp + selectedLayers</tabTrigger>
+  <tabTrigger>activeComp+sel</tabTrigger>
   <description>Creates activeComp structure + selectedLayers</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.jsx</scope>

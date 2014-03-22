@@ -7,7 +7,7 @@ if(activeComp && activeComp instanceof CompItem){
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>ActiveComp + selectedLayers</tabTrigger>
+  <tabTrigger>activeComp + selectedLayers</tabTrigger>
   <description>Creates activeComp structure</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.jsx</scope>
