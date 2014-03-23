@@ -5,13 +5,15 @@ var activeComp = app.project.activeItem;
 if(activeComp && activeComp instanceof CompItem){
 	var sel = activeComp.selectedLayers;
 	if(sel.length > 0){
+	
+		for(var s = 0; s < sel.length; s++){
 
-
+		}
 	}
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>activeComp+sel</tabTrigger>
+  <tabTrigger>ActiveComp+sel</tabTrigger>
   <description>Creates activeComp structure + selectedLayers</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.jsx</scope>
