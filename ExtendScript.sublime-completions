@@ -1,5 +1,8 @@
 {
-	"scope": "source.jsx",
+	"scope":
+	[
+		"source.jsx",
+	],
 
 	"completions":
 	[
@@ -11,6 +14,5 @@
 		{ "trigger": "selectedLayers", "contents": "selectedLayers" },
 		{ "trigger": "containingComp", "contents": "containingComp" },
 		{ "trigger": "frameDuration", "contents": "frameDuration" },
-
 	]
 }
