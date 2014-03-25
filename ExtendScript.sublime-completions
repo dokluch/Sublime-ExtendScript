@@ -3,11 +3,14 @@
 
 	"completions":
 	[
-		{ "trigger": "thisComp", "contents": "thisComp." },
+		{ "trigger": "thisComp", "contents": "thisComp" },
 		{ "trigger": "layer", "contents": "layer" },
 		{ "trigger": "activeItem", "contents": "activeItem" },
-		{ "trigger": "app", "contents": "app." },
-		{ "trigger": "project", "contents": "project." },
+		{ "trigger": "app", "contents": "app" },
+		{ "trigger": "project", "contents": "project" },
 		{ "trigger": "selectedLayers", "contents": "selectedLayers" },
+		{ "trigger": "containingComp", "contents": "containingComp" },
+		{ "trigger": "frameDuration", "contents": "frameDuration" },
+
 	]
 }
